@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+
+    text-align: center;
+}
+
+.section-subtitle {
+    font-family:;
+    font-size: 24px;
+    color: #333;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+
+    background-color: #f38181;
+}
+
+.section-clients {
+    background-color: #f8f8f8;
+    background-image: url(images/clients-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.clients-items {
+    width: 50%;
+    padding: 0 45px 0 175px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.clients-photo {
+    width: 110px;
+    height: 110px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+}
+
+.clients-name {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.clients-text {
+    font-size: 15px;
+    color: #999;
+}
+
+.clients-text::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 15px 0;
+
+    background-color: #f38181;
+}
