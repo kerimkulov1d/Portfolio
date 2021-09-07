@@ -1,2 +1,2 @@
 # Portfolio (section clients)
-https://kerimkulov1d.github.io/Portfolio/
+[Открыть комменты](https://kerimkulov1d.github.io/Portfolio/)
